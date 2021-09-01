@@ -116,7 +116,9 @@ export function initRouter(container: Element) {
       }
     }
   }
-
+  if (location.host.includes("github.io")) {
+    goTo("/dwf-m5-desafio/home");
+  }
   if (location.pathname == "/") {
     goTo("/home");
   } else {
