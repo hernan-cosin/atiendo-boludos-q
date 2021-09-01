@@ -55,6 +55,50 @@ const routes = [
     path: /\/results/,
     page: initResults,
   },
+  {
+    path: /\/atiendo-boludos-q\/home/,
+    page: initHome,
+  },
+  {
+    path: /\/atiendo-boludos-q\/step-1-inspector/,
+    page: initStep1Inspector,
+  },
+  {
+    path: /\/atiendo-boludos-q\/step-2-inspector/,
+    page: initStep2Inspector,
+  },
+  {
+    path: /\/atiendo-boludos-q\/step-3-inspector/,
+    page: initStep3Inspector,
+  },
+  {
+    path: /\/atiendo-boludos-q\/step-4-inspector/,
+    page: initStep4Inspector,
+  },
+  {
+    path: /\/atiendo-boludos-q\/step-5-inspector/,
+    page: initStep5Inspector,
+  },
+  {
+    path: /\/atiendo-boludos-q\/step-6-inspector/,
+    page: initStep6Inspector,
+  },
+  {
+    path: /\/atiendo-boludos-q\/step-7-inspector/,
+    page: initStep7Inspector,
+  },
+  {
+    path: /\/atiendo-boludos-q\/step-8-inspector/,
+    page: initStep8Inspector,
+  },
+  {
+    path: /\/atiendo-boludos-q\/step-9-inspector/,
+    page: initStep9Inspector,
+  },
+  {
+    path: /\/atiendo-boludos-q\/results/,
+    page: initResults,
+  },
 ];
 
 export function initRouter(container: Element) {
