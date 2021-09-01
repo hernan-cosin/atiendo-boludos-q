@@ -1,0 +1,14 @@
+{
+  "name": "atiendo-boludos-quiz",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "parcel": "^2.0.0-rc.0"
+  },
+  "scripts": {
+    "dev": "parcel serve ./src/index.html"
+  },
+  "devDependencies": {
+    "@parcel/transformer-image": "2.0.0-rc.0"
+  }
+}
