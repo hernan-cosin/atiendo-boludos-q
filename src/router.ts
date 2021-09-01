@@ -117,7 +117,7 @@ export function initRouter(container: Element) {
     }
   }
   if (location.host.includes("github.io")) {
-    goTo("/dwf-m5-desafio/home");
+    goTo("/atiendo-boludos-q/home");
   }
   if (location.pathname == "/") {
     goTo("/home");
